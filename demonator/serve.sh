@@ -1,0 +1,1 @@
+(cd src/public && php -S localhost:8000)

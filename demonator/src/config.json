@@ -1,0 +1,38 @@
+{
+    "apps":[
+        {
+            "title": "Home",
+            "commands": [
+                {
+                    "description": "Restart OpenMRS command",
+                    "command": "echo \"Text\" >> /tmp/test.txt"
+                }
+            ],
+            "files": [
+                {
+                    "description": "Test file",
+                    "path": "/tmp/test.txt"
+                },
+                {
+                    "description": "Test file 2",
+                    "path": "/tmp/test2.txt"
+                }
+            ]
+        },
+        {
+            "title": "OpenMRS",
+            "commands": [
+                {
+                    "description": "Restart OpenMRS command 2",
+                    "command": "sleep 3"
+                }
+            ],
+            "files": [
+                {
+                    "description": "Test file 2",
+                    "path": "/tmp/test.txt"
+                }
+            ]
+        }
+    ]
+}

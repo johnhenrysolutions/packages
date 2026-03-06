@@ -1,0 +1,30 @@
+.action-button {
+    height: 40px;
+    width: 40px;
+}
+
+.action-button > .icon {
+    padding-left: 2px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.editor {
+    min-height: 400px;
+}
+
+.ui.container.top {
+    padding-top: 40px;
+}
+
+.ui.header.zero-margin {
+    margin: 0px;
+}
+
+.ui.top.attached.tabular.menu {
+    margin-top: 2rem;
+}
